@@ -1,0 +1,129 @@
+body {
+    background-image: url("./img/standar.gif");
+    background-size: auto;}
+
+main{
+    padding: 0;
+    margin: 0;
+    font-family: 'Tahoma';
+    max-width: 500px;
+    margin: 0 auto;  
+}
+
+h1 {color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.center{
+    justify-content: center;
+}
+.w20{
+    width: 20%;   
+    text-shadow: 1px 1px 2px #000000;
+
+}
+.w90{
+    width: 90%;
+    
+}
+.w100{
+    width: 100%;
+}
+
+.cel{
+    color: white;
+    border: 1px solid rgb(105, 101, 101);
+    height: 82px;
+    z-index: 1;
+    width: 90%;
+    font-weight: bold;
+    position: relative;
+    margin: 5px auto;
+    background-color: #1aa1f0;
+    border-radius: 10px;    
+    text-align: center;    
+    justify-content: center;
+    font-size: 2.25em;
+   
+    align-items: center;
+}
+
+.comprobar, .info{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #fbd100e9;
+}
+
+.comprobar *, .info *{
+    margin: 10px;
+}
+.info{
+    border-color: crimson;
+    background-color: crimson;
+    color: white;
+}
+label{
+    color: #000000;
+    font-weight: bold;
+}
+input{
+    box-sizing: border-box;
+    width: 40%;    
+    border: none;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    padding: 10px;
+    border-bottom: 2px solid #1aa1f0;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+}
+
+input:focus, input:hover{    
+    background-color: #BABABA;
+}
+
+
+button{
+    width: 55%;
+    padding: 15px;
+    background-color: #1aa1f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.17em;
+    margin-bottom: 10px;
+}
+
+button:hover, button:focus{    
+    background-color: #1aa1f075;    
+    cursor: pointer;
+}
+
+.celResult{
+    color: white;
+    height: 82px;
+    z-index: 1;
+    width: 90%;
+    font-weight: bold;
+    position: relative;
+    margin: 5px auto;
+    background-color: #BABABA;
+    border-radius: 10px;    
+    text-align: center;    
+    justify-content: center;
+    font-size: 2.25em;
+    align-items: center;
+    border: 1px solid rgb(105, 101, 101);
+}
+
